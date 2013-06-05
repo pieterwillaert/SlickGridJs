@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SlickGrid Example</title>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script type="text/javascript" src="generated/lib/randori-guice-framework.js"></script>
+    <script type="text/javascript" src="generated/lib/randori-framework.js"></script>
+    <link rel="stylesheet" href="jsLibs/SlickGrid/css/slick-default-theme.css" type="text/css"/>
+    <link rel="stylesheet" href="jsLibs/SlickGrid/slick.grid.css" type="text/css"/>
+    <link rel="stylesheet" href="jsLibs/SlickGrid/css/smoothness/jquery-ui-1.8.16.custom.css" type="text/css"/>
+    <!--<link rel="stylesheet" href="assets/style/style.css">-->
+    <link rel="stylesheet/randori" href="assets/behaviors.css" type="text/css"/>
+
+
+    <script type="text/javascript">
+        //Start the randori framework
+        $(function () {
+            var randoriApp = new randori.startup.RandoriBootstrap(document);
+            randoriApp.launch( true );
+        });
+    </script>
+</head>
+<body class="simpleApp">
+    <div id="gridContainer"></div>
+
+
+    <script type="text/javascript" src="jsLibs/SlickGrid/lib/jquery.event.drag-2.2.js"></script>
+    <script type="text/javascript" src="jsLibs/SlickGrid/slick.core.js"></script>
+    <script type="text/javascript" src="jsLibs/SlickGrid/slick.grid.js"></script>
+    <script type="text/javascript" src="jsLibs/SlickGrid/plugins/slick.rowselectionmodel.js"></script>
+</body>
+</html>
